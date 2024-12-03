@@ -4,7 +4,7 @@ class Person
 {
 	// クラスで保持する変数を並べる。C言語の構造体に近い概念
 	// この変数達を「メンバ変数」とよぶ
-	int myAge;			//年齢
+	int myAge=5;		//年齢
 	double myWeight;	//体重[kg]
 	double myHeight;	//身長[cm]
 
@@ -31,7 +31,7 @@ public class about_class
 
 
 		//クラスのメンバ変数にアクセスするときは.を使う(構造体と一緒)
-		gachaping.myAge = 5;
+//		gachaping.myAge = 51;
 		gachaping.myHeight= 165.0;
 		gachaping.myWeight = 80.0;
 
